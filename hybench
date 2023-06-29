@@ -1,0 +1,5 @@
+# 依赖java 17，请更新jdk17的path
+export JAVA_HOME=`your java PATH`
+export PATH=$JAVA_HOME/bin:$PATH
+
+java -cp ./lib/*:. com.hybench.HyBench $*
