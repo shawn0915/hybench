@@ -17,10 +17,8 @@ Hybench针对HTAP数据库技术特点，参考实际典型应用场景进行设
 
 ## 系统概述
 
-Hybench实现了Hybench基准测试，集成了测试数据集生成，HTAP负载运行、新鲜度度量、测试结果统计分析等多种功能，总体架构如下图所示：
+Hybench实现了Hybench基准测试，集成了测试数据集生成，HTAP负载运行、新鲜度度量、测试结果统计分析等多种功能
 
-<img decoding="async" src="https://atomgit.com/cstc2023/HyBench/edit/master/src/main/resources/overview.png">
-src/main/resources/overview.png 目录下
 
 通过该工具，我们不仅可以完成Hybench基准测试，得到评价指标H-Score，还可以进行多种单项测试，对单项性能进行评判。下表是Hybench工具提供的测试类型以及对应的性能指标。
 
