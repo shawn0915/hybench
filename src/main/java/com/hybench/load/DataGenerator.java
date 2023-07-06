@@ -194,7 +194,7 @@ public class DataGenerator {
 
                 // get the customer checking balance
                 CheckingAccount ca = new CheckingAccount(i, i, CR.customer_checkingbalance, blocked, date);
-                checkingAccount_bufferedWriter.write(sa.toString());
+                checkingAccount_bufferedWriter.write(ca.toString());
                 checkingAccount_bufferedWriter.write(NEW_LINE_SEPARATOR);
 
             }
